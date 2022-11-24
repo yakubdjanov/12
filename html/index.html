@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UzAuto</title>
+    <link rel="icon" href="../img/uzautomotors-white.svg" type="image/png" sizes="192x192">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+</head>
+
+<body>
+    <header>
+        <!-- <nav class="menu__scrol"> -->
+        <div>
+            <a href="index.html"><img src="../img/uzautomotors-white.svg" alt=""
+                    class="menu__icon menu__icon_white"></a>
+            <a href="index.html"><img src="../img/uzautomotors-black.svg" alt=""
+                    class="menu__icon menu__icon_black"></a>
+        </div>
+        <ul class="menu__ul">
+            <li><a href="prices.html" class="menu__li">Цены</a></li>
+            <li><a href="#main" class="menu__li">Модельный ряд</a></li>
+            <li><a href="dilers.html" class="menu__li">Дилеры</a></li>
+            <li><a href="news.html" class="menu__li">Новости</a></li>
+            <li><select class="menu__li">
+                    <a href="">
+                        <option value="" class="language_1">Ru</option>
+                    </a>
+                    <a href="">
+                        <option value="" class="language_1">Uz</option>
+                    </a>
+                    <a href="">
+                        <option value="" class="language_1">En</option>
+                    </a>
+                </select></li>
+            <img src="../img/icon/bars.png" alt="" class="icon menu-icon dropbtn" onclick="myFunctions()">
+        </ul>
+        <ul id="myDropdown" class="menu-uls dropdown-content">
+            <li><a class="menu-li" href="prices.html">Цены</a></li>
+            <li><a class="menu-li" href="#main">Модельный ряд</a></li>
+            <li><a class="menu-li" href="dilers.html">Дилеры</a></li>
+            <li><a class="menu-li" href="news.html">Новости</a></li>
+            <li><a class="menu-li" href="accessories.html">Аксессуары</a></li>
+            <a href="" class="menu__li-1 menu-li">Вход</a>
+        </ul>
+        <!-- </nav> -->
+    </header>
+    <div class="main__bg">
+        <div class="">
+            <video src="../img/onix.mp4" class="video__bg mySliders" autoplay muted loop></video>
+            <video src="../img/VID_20221005_113715_151_001_001.mp4" class="video__bg mySliders" autoplay muted
+                loop></video>
+            <video src="../img/4_5966347565766017904.mp4" class="video__bg mySliders" autoplay muted loop></video>
+            <video src="../img/293837874_572824774291657_1979214248430333943_n.mp4" class="video__bg mySliders" autoplay
+                muted loop></video>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <div class="" style="width: 100%; height: 100%; position: fixed; z-index: 9990; background: #0000; top: 0;"
+        id="myDIVs">
+        <div class="element" id="myDIV">
+            <button type="button" class="btn-close element__exit" aria-label="Закрыть" onclick="myFunction()">✖</button>
+            <select class="element__section">
+                <option value="" id="" class="element__option">Выберите регион...</option>
+                <option value="" id="" class="element__option">Андижанская область</option>
+                <option value="" id="" class="element__option">Бухарская область</option>
+                <option value="" id="" class="element__option">город Ташкент</option>
+                <option value="" id="" class="element__option">Джизакская область</option>
+                <option value="" id="" class="element__option">Кашкадарьинская область</option>
+                <option value="" id="" class="element__option">Навоийская область</option>
+                <option value="" id="" class="element__option">Наманганская область</option>
+                <option value="" id="" class="element__option">Республика Каракалпакстан</option>
+                <option value="" id="" class="element__option">Самаркандская область</option>
+                <option value="" id="" class="element__option">Сурхандарьинская область</option>
+                <option value="" id="" class="element__option">Сырдарьинская область</option>
+                <option value="" id="" class="element__option">Ташкентская область</option>
+                <option value="" id="" class="element__option">Ферганская область</option>
+                <option value="" id="" class="element__option">Хорезмская область</option>
+            </select>
+            <div class="element__div"><a href="#" class="element__link" onclick="myFunction()">готово</a></div>
+        </div>
+    </div>
+    <section class="uz-auto">
+        <img src="../img/uzautomotors-black.svg" class="uz-auto-logo">
+    </section>
+    <main class="main" id="main">
+        <div class="main__content">
+            <section class="now">
+                <div class="news">
+                    <img src="../img/TAHOE/download1.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">TAHOE-2</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 947 500 000 сум</p>
+                        </nav>
+                        <a href="TAHOE.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/TRAVERSE/traverse.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">TRAVERSE</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 647 600 000 сум</p>
+                        </nav>
+                        <a href="TRAVERSE.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/malibu/malibu-2.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">Malibu</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 405 900 000 сум</p>
+                        </nav>
+                        <a href="MALIBU.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/TRAILBLAZER/trailblazer.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">TRAILBLAZER</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 398 000 000 сум</p>
+                        </nav>
+                        <a href="TRAILBLAZER.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/EQUINOX/equinox1.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">EQUINOX</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 389 000 000 сум</p>
+                        </nav>
+                        <a href="EQUINOX.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/TRACKER/tracker-2.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">TRACKER-2</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 209 000 000 сум</p>
+                        </nav>
+                        <a href="tracker.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/onix/sell/1.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">Onix</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 152 996 000 сум</p>
+                        </nav>
+                        <a href="onix.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news ">
+                    <img src="../img/lacetti/lacetti.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">Lacetti</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 131 134 000 сум</p>
+                        </nav>
+                        <a href="lasetti.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="news">
+                    <img src="../img/cobalt/cobalt.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">Cobalt</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 124 295 000 сум</p>
+                        </nav>
+                        <a href="COBALT.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="now">
+                <div class="news ">
+                    <img src="../img/" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">NEXIA</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 106 818 000 сум</p>
+                        </nav>
+                        <a href="nexia.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section> -->
+            <!-- <section class="now">
+                <div class="news ">
+                    <img src="../img/" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">SPARK</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 90 164 000 сум</p>
+                        </nav>
+                        <a href="spark.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section> -->
+            <section class="now">
+                <div class="news">
+                    <img src="../img/damas/damas.png" alt="" class="main__img">
+                    <div class="box">
+                        <p class="t">Chevrolet</p>
+                        <h2 class="title">Damas</h2>
+                        <nav class="cars__sale">
+                            <p class="sale__title">от 86 110 000 сум</p>
+                        </nav>
+                        <a href="DAMAS.html" class="btn">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- <div class="slider__top">
+            <div class="container">
+                <h2 class="slider__title-1">Интерактивные услуги</h2>
+            </div>
+            <section class="slider__block">
+                <div class="card">
+                    <img src="../img/icon/news.png" class="card-img-top slider__icon" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Новости</h5>
+                        <p class="card-text">Больше новостей тут!</p>
+                        <a href="#" class="slider__btn"><img src="../img/icon/right.png" alt=""
+                                class="slider__img-icon"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../img/icon/app.png" class="card-img-top slider__icon" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Приложения</h5>
+                        <p class="card-text">Больше информации о приложении</p>
+                        <a href="mobil.html" class="slider__btn"><img src="../img/icon/right.png" alt=""
+                                class="slider__img-icon"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../img/icon/cars.png" class="card-img-top slider__icon search__ion_car" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Информация о наличии</h5>
+                        <p class="card-text">Узнайте все о наличии</p>
+                        <a href="#" class="slider__btn"><img src="../img/icon/right.png" alt=""
+                                class="slider__img-icon"></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../img/icon/sale.png" class="card-img-top slider__icon " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Акции</h5>
+                        <p class="card-text">Все акции тут</p>
+                        <a href="#" class="slider__btn"><img src="../img/icon/right.png" alt=""
+                                class="slider__img-icon"></a>
+                    </div>
+                </div>
+            </section>
+        </div> -->
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+            <a href="index.html"><img src="../img/uzautomotors-white.svg" alt="" class="menu__icon_footer"></a>
+            <nav style="display: grid;">
+                <a href="https://www.chevrolet.uz/" class="footer__menu">Chevrolet Uz</a>
+                <a href="https://uzautomotors.com/" class="footer__menu">Uz Auto Motors</a>
+                <a href="https://savdo.uzavtosanoat.uz/#/main" class="footer__menu">Uz Auto Savdo</a>
+                <a href="accessories.html" class="footer__menu">Аксессуары и запчасти</a>
+                <a href="" class="footer__menu"></a>
+            </nav>
+            <nav class="">
+                <div class="footer__info footer-2_info">
+                    <h3 class="footer__title">АДРЕС</h3>
+                    <p class="footer__menu footer__desc">г.Ташкент, Мирабадский район, улица А.Темура,дом 13</p>
+                    <p class="footer__menu">
+                        <bold>Время работы:</bold> 09:00-18:00
+                    </p>
+                    <p class="footer__menu">
+                        <bold>Обед:</bold> 13:00-14:00
+                    </p>
+                    <a href="https://www.google.com/maps/place/%22UzAuto+Motors%22+%D0%90%D0%9E/@41.3062584,69.2776085,280m/data=!3m1!1e3!4m5!3m4!1s0x0:0x1839c463a783508e!8m2!3d41.3057621!4d69.2781386"
+                        class="footer-2_info">Просмотреть на работе</a>
+                </div>
+            </nav>
+
+            <nav class="">
+                <ul class="footer__icon_menu">
+                    <li class=""><a href="https://t.me/uzautomotorscom" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="ph:telegram-logo-light" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://ru-ru.facebook.com/UzAuto/" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="ph:facebook-logo" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://www.instagram.com/uzautomotorsofficial/" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="carbon:logo-instagram" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://www.youtube.com/c/uzautomotors" class="menu__li_info"><img
+                                src="../img/icon/youtube-icon.png" alt=""
+                                style="width: 25px; height: 25px; color: white;"></a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="footer__2">
+            <p class="footer-2_info ">© 1996 - 2022 АО "УЗАВТО МОТОРС"</p>
+            <img src="../img/hit.gif" alt="" class="footer-2_img">
+        </div>
+        <div class="logo1">
+            <div class="toggle">
+                <ion-icon name="share-social"></ion-icon>
+            </div>
+            <li style="--i:0;--clr:#1877f2;">
+                <a href="https://ru-ru.facebook.com/UzAuto/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:3;--clr:#0a66c2;">
+                <a href="https://www.linkedin.com/company/uzauto-motors?originalSubdomain=uz">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:2;--clr:#1da1f2;">
+                <a href="https://t.me/uzautomotorscom">
+                    <!-- <ion-icon name="logo-twitter"></ion-icon> -->
+                    <ion-icon name="send"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:1;--clr:#25d366;">
+                <a href="...">
+                    <ion-icon name="logo-apple-appstore"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:4;--clr:#c32aa3;">
+                <a href="https://www.instagram.com/uzautomotorsofficial/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:5;--clr:#bd081c;">
+                <a href="...">
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:6;--clr:#ff0000;">
+                <a href="https://www.youtube.com/@UzAutoMotors">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:7;--clr:#c32aa3;">
+                <a href="https://www.instagram.com/uzautomotorsofficial/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </div>
+        <a href="#!" class="btn  btn-lg js-btn-top hidden">▲</a>
+        <!-- <div id="#go-top" style="display: block;">
+            <a title="Back to Top" href="#">Go To Top</a>
+        </div> -->
+    </footer>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/js.js"></script>
+    <script src="../js/logo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
